@@ -1,0 +1,92 @@
+/* Import fonts from Google Fonts */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:300,400,500,700");
+
+/* Importing all components file */
+@import url("components/cards.css");
+
+/* General for fonts and colors */
+body {
+  margin: 100px;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  font-family: Raleway, Helvetica, sans-serif;
+  background-color: #fdffff;
+}
+h1, h2, h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.text-center {
+  text-align: center;
+}
+
+.cards {
+  background-color: white;
+  box-shadow: 10px 3px 25px #ccc;
+  border-radius: 25px;
+  margin: 50px 0px;
+}
+
+.card-category {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 58px 270px;
+  background-position: top;
+  background-size: cover;
+  border-radius: 25px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+}
+
+.card-category p {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.card-product {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.product-image {
+  background-image: url(images/tardis.jpeg);
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+}
+
+.card-trip {
+  position: relative;
+}
+.avatar {
+  position: absolute;
+  bottom: 70px;
+  right: 20px;
+  height: 50px;
+}
+#avatar img {
+  width: 35px;
+  height: 35px;
+  border-radius: 18px;
+  background-color: white;
+}
+
+.card-trip-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0 30px;
+}
+
+.card-trip img {
+  width: 900;
+  border-radius: 25px 25px 0 0;
+}
+
+.card-trip h2 p {
+  margin: 30px;
+}
