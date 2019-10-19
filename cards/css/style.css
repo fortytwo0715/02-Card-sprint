@@ -1,3 +1,4 @@
+
 /* Import fonts from Google Fonts */
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:300,400,500,700");
 
@@ -61,6 +62,7 @@ a {
 
 .card-trip {
   position: relative;
+  max-width: 900px;
 }
 .avatar {
   position: absolute;
@@ -83,7 +85,7 @@ a {
 }
 
 .card-trip img {
-  width: 900;
+  width: 100%;
   border-radius: 25px 25px 0 0;
 }
 
